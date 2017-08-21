@@ -12,12 +12,12 @@ python2 ./insert.py
 Lancez le script myRttAnalysis.py se trouvant dans tartiflette/analysis afin d'obtenir le résultat de l'analyse.
 
 
-Le dossier Test_Classique permet de faire des test pour une topologie similaire
+Le dossier Test_Classique permet de faire des tests pour une topologie similaire
 
 ![Screenshot](Test_Classique/route%20det.jpg)
 
 
-Le dossier Test_Assymétrique permet de faire des test pour une topologie avec trois chemins retours
+Le dossier Test_Assymétrique permet de faire des tests pour une topologie avec trois chemins retours
 
 ![Screenshot](Test_Assymetrique/routes.png)
 

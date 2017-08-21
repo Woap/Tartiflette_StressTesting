@@ -1,0 +1,67 @@
+{
+    "_id": ID,
+    "lts": 43,
+    "size": 40,
+    "src_addr": "10.0.0.1",
+    "msm_id": 5013,
+    "proto": "UDP",
+    "timestamp": TIME,
+    "msm_name": "Traceroute",
+    "fw": 4770,
+    "paris_id": 15,
+    "prb_id": 20069,
+    "af": 4,
+    "result": [
+        {
+            "result": [
+                {
+                    "rtt": RTT1,
+                    "ttl": 63,
+                    "from": "10.0.0.2",
+                    "size": 68
+                },
+                {
+                    "rtt": RTT2,
+                    "ttl": 63,
+                    "from": "10.0.0.2",
+                    "size": 68
+                },
+                {
+                    "rtt": RTT3,
+                    "ttl": 63,
+                    "from": "10.0.0.2",
+                    "size": 68
+                }
+            ],
+            "hop": 1
+        },
+         {
+            "result": [
+                {
+                    "rtt": RTT4,
+                    "ttl": 62,
+                    "from": "10.0.1.2",
+                    "size": 68
+                },
+                {
+                    "rtt": RTT5,
+                    "ttl": 62,
+                    "from": "10.0.1.2",
+                    "size": 68
+                },
+                {
+                    "rtt": RTT6,
+                    "ttl": 62,
+                    "from": "10.0.1.2",
+                    "size": 68
+                }
+            ],
+            "hop": 2
+        }
+    ],
+    "from": "10.0.0.1",
+    "endtime": TIME,
+    "type": "traceroute",
+    "dst_addr": "10.0.1.2",
+    "dst_name": "10.0.1.2"
+}
